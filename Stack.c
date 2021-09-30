@@ -27,8 +27,7 @@ void push(){
 }
 
 //Removing element
-
-int pop(){
+void pop(){
     if(st.top==-1){
         printf("Empty Stack");
     }else{
@@ -41,7 +40,7 @@ int pop(){
 
 //Peek element
 
-int peek(){
+void peek(){
     int display;
     if(st.top==-1){
         printf("\nEmpty Stack");
